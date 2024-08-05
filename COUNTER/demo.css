@@ -1,0 +1,32 @@
+*
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    color: black ;
+    /* margin-top: 18%; */
+    border: 2px;
+    background-color: rgb(24, 148, 225);
+    width: 150px;
+    height: 50px;
+}
+button:hover
+{
+    background-color: green;
+    zoom: 1.2;
+    transition: 1s;
+    
+}
+button:active
+{
+    background-color: brown;
+    transition: 2s;
+}
+#head
+{
+    margin-top: 20%;
+    font-size: 100px;
+}
